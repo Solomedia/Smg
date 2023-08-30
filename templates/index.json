@@ -1,0 +1,113 @@
+{
+  "sections": {
+    "dynamic-slideshow-1": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "feature",
+          "settings": {
+            "alignment": "left top",
+            "show_overlay": false,
+            "background": "#000000",
+            "opacity": 1
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "desktop_height": "natural",
+        "mobile_height": "small",
+        "full-width": true,
+        "parallax": false,
+        "autoplay_enable": false,
+        "transition": "slide",
+        "autoplay_interval": 5
+      }
+    },
+    "dynamic-logo-list-1": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "block-1": {
+          "type": "feature",
+          "settings": {
+          }
+        },
+        "block-2": {
+          "type": "feature",
+          "settings": {
+          }
+        },
+        "block-3": {
+          "type": "feature",
+          "settings": {
+          }
+        },
+        "block-4": {
+          "type": "feature",
+          "settings": {
+          }
+        },
+        "block-5": {
+          "type": "feature",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2",
+        "block-3",
+        "block-4",
+        "block-5"
+      ],
+      "settings": {
+        "border": false,
+        "logos_per_row": 5
+      }
+    },
+    "dynamic-collection-1": {
+      "type": "dynamic-collection",
+      "settings": {
+        "border": false,
+        "rows": 1,
+        "products_per_row": 3
+      }
+    },
+    "dynamic-image-with-text-1": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "margin": "regular",
+        "alignment": "left",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "parallax": false
+      }
+    },
+    "dynamic-image-with-text-2": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "margin": "none",
+        "alignment": "right",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "parallax": false
+      }
+    },
+    "dynamic-twitter-1": {
+      "type": "dynamic-twitter",
+      "settings": {
+        "border": false
+      }
+    }
+  },
+  "order": [
+    "dynamic-slideshow-1",
+    "dynamic-logo-list-1",
+    "dynamic-collection-1",
+    "dynamic-image-with-text-1",
+    "dynamic-image-with-text-2",
+    "dynamic-twitter-1"
+  ]
+}

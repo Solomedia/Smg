@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-collection-list",
+      "settings": {
+        "show-breadcrumbs": false
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
