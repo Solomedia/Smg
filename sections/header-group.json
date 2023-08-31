@@ -7,12 +7,26 @@
       "settings": {
         "show_announcement": true,
         "announcement_home_only": true,
+        "announcement_text": "Call attention to a special discount, feature, or promotion here.",
+        "announcement_text_mobile": "Use less text on mobile!",
+        "announcement_link": "",
+        "announcement_color": "#ffffff",
         "announcement_background": "#355755"
       }
     },
     "header": {
       "type": "static-header",
       "settings": {
+        "image": "shopify:\/\/shop_images\/smg.webp",
+        "logo_width": 95,
+        "header-layout": "minimal-sticky",
+        "center-header": false,
+        "social-icons": false,
+        "show-labels": false,
+        "cart-icon": "bag",
+        "live_search_enabled": false,
+        "menu": "main-menu",
+        "top-level-columns": "two-columns"
       }
     }
   },

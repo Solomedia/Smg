@@ -6,6 +6,10 @@
         "block-1": {
           "type": "feature",
           "settings": {
+            "slide_title": "Slideshow",
+            "caption": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "button": "Your call to action button",
+            "link": "",
             "alignment": "left top",
             "show_overlay": false,
             "background": "#000000",
@@ -32,26 +36,31 @@
         "block-1": {
           "type": "feature",
           "settings": {
+            "link": ""
           }
         },
         "block-2": {
           "type": "feature",
           "settings": {
+            "link": ""
           }
         },
         "block-3": {
           "type": "feature",
           "settings": {
+            "link": ""
           }
         },
         "block-4": {
           "type": "feature",
           "settings": {
+            "link": ""
           }
         },
         "block-5": {
           "type": "feature",
           "settings": {
+            "link": ""
           }
         }
       },
@@ -63,6 +72,7 @@
         "block-5"
       ],
       "settings": {
+        "title": "Logo list",
         "border": false,
         "logos_per_row": 5
       }
@@ -70,6 +80,8 @@
     "dynamic-collection-1": {
       "type": "dynamic-collection",
       "settings": {
+        "collection": "",
+        "title": "Featured collection",
         "border": false,
         "rows": 1,
         "products_per_row": 3
@@ -82,7 +94,9 @@
         "alignment": "left",
         "desktop_height": "natural",
         "mobile_height": "natural",
-        "parallax": false
+        "parallax": false,
+        "title": "Image with text",
+        "content": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
       }
     },
     "dynamic-image-with-text-2": {
@@ -92,13 +106,19 @@
         "alignment": "right",
         "desktop_height": "natural",
         "mobile_height": "natural",
-        "parallax": false
+        "parallax": false,
+        "title": "Image with text",
+        "content": "<p>Say a bit about your brand, a specific product, or promotion.<\/p>"
       }
     },
     "dynamic-twitter-1": {
       "type": "dynamic-twitter",
       "settings": {
-        "border": false
+        "title": "Twitter feed",
+        "border": false,
+        "username": "",
+        "show_images": false,
+        "show_retweets": false
       }
     }
   },
